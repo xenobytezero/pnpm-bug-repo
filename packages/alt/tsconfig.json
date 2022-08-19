@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["./src/**/*.ts", "./types/*.ts"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["ES2021", "DOM"],
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationMap": true,
+    "resolveJsonModule": true
+  }
+}

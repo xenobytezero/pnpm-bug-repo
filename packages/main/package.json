@@ -1,0 +1,23 @@
+{
+  "name": "@mypkg/main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mypkg/alt": "workspace:^1.0.0",
+    "@mypkg/support": "workspace:^1.0.0",
+    "lodash": "^4.17.21",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.6"
+  }
+}
